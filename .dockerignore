@@ -1,0 +1,44 @@
+# Environnements virtuels
+.venv/
+venv/
+
+# Git
+.git/
+.gitignore
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Données (volumineuses)
+data/raw/*.csv
+data/raw/*.zip
+data/processed/*.csv
+
+# Notebooks (lourds)
+notebooks/figures/
+notebooks/*.ipynb
+
+# IDE
+.vscode/
+.idea/
+
+# Secrets
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docs
+docs/
+README.md
+LICENSE
